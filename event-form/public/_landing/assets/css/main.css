@@ -209,9 +209,15 @@ h1,
     font-weight: var(--h1-weight);
     line-height: 1.2;
     font-family: var(--h1-font);
-    color: #f58634;
+    color: white !important;
     -ms-word-wrap: break-word;
     word-wrap: break-word;
+}
+
+@media screen and (max-width: 480px) {
+    .check-image{
+        display: none !important;
+    }
 }
 
 h1 em,

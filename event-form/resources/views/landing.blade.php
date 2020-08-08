@@ -23,7 +23,7 @@
             <div class="swiper-wrapper">
                 <!-- Item 1 -->
                 <div class="swiper-slide slide-center">
-                    <img data-aos="zoom-out-up" data-aos-delay="800" src="{{asset('_landing/assets/images/hero-11.png')}}" class="hero-image" alt="Hero Image">
+                    <img data-aos="zoom-out-up" data-aos-delay="800" src="{{asset('_landing/assets/images/hero-11.png')}}" class="hero-image check-image" alt="Hero Image">
                     <div class="slide-content row">
                         <div class="col-12 d-flex inner">
                             <div class="left align-self-center text-center text-md-left">
