@@ -73,11 +73,9 @@
 
             <!-- Navbar Brand-->
             <a class="navbar-brand" href="index.html">
-                Xownsolutions<i>.</i>
-                <!--
-                    Custom Logo
-                    <img src="assets/images/logo.svg" alt="Leverage">
-                -->
+
+                    <img src="_landing/assets/images/logo.png" alt="xownsolutions">
+
             </a>
 
             <!-- Nav holder -->
