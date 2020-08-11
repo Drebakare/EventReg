@@ -2564,7 +2564,7 @@ header .navbar-expand .navbar-brand img {
 
 .hero-image {
     position: absolute;
-    right: 10%;
+    /*right: 10%;*/
     bottom: 0;
     width: auto;
     height: 85%;
@@ -3130,7 +3130,7 @@ footer .nav-item .nav-link:hover {
 }
 
 footer .copyright {
-    background-color: var(--primary-l-color);
+    background-color: /*var(--primary-l-color)*/ #ffff;
 }
 
 footer .copyright p {
