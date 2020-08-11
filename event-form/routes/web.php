@@ -21,3 +21,19 @@ use Illuminate\Support\Facades\Route;
         'as' => 'event.submit-registration-form',
         'uses' => 'AttendeeController@register'
     ]);
+
+    Route::get('/login', function () {
+        return view('Admin.login');
+    })->name('login');
+
+    Route::post('user/login', [
+        'uses' => 'Auth\AuthController@Login',
+        'as' => 'user.login'
+    ]);
+
+    Route::get('/admin/dashboard', [
+        'uses' => 'Auth\AuthController@Dashboard',
+        'as' => 'admin.dashboard'
+    ]);
+
+
