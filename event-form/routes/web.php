@@ -17,6 +17,10 @@ use Illuminate\Support\Facades\Route;
         return view('landing');
     })->name('homepage');
 
+    Route::get('/email', function () {
+        return view('Emails.registration');
+    })/*->name('homepage')*/;
+
     Route::post('event/submit-registration-form', [
         'as' => 'event.submit-registration-form',
         'uses' => 'AttendeeController@register'
