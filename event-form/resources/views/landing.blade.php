@@ -18,7 +18,7 @@
         </div>
     </section>--}}
     <!-- Hero -->
-    <section id="slider" class="hero p-0 featured left">
+    <section id="slider" class="hero p-0 featured left edit-banner">
         <div class="swiper-container no-slider animation slider-h-100">
             <div class="swiper-wrapper">
                 <!-- Item 1 -->
@@ -27,7 +27,7 @@
                     <div class="slide-content row">
                         <div class="col-12 d-flex inner justify-center">
                             <div class=" col-12 align-self-center text-center ">
-                                <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text">Digital Culture</h1>
+                                <h1 data-aos="zoom-out-up" data-aos-delay="400" class="title effect-static-text edit-title">Digital Culture</h1>
                                 <p data-aos="zoom-out-up" data-aos-delay="800" class="description">Roadmap To Sustainable Performance Engine</p>
                                 <a href="#contact" data-aos="zoom-out-up" data-aos-delay="1200" class="smooth-anchor ml-auto mr-auto  mt-4 btn primary-button"><i class="icon-cup"></i>GET STARTED</a>
                             </div>

@@ -1,6 +1,6 @@
 .lg-sub-html,
 .lg-toolbar {
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(255, 255, 255);
 }
 @font-face {
     font-family: lg;
@@ -259,7 +259,7 @@ body:not(.lg-from-hash)
     opacity: 1;
 }
 .lg-outer .lg-thumb-outer {
-    background-color: (255, 255, 255);
+    background-color: #fff;
     bottom: 0;
     position: absolute;
     width: 100%;
@@ -340,7 +340,7 @@ body:not(.lg-from-hash)
     bottom: 100px;
 }
 .lg-outer .lg-toogle-thumb {
-    background-color: (255, 255, 255);
+    background-color: #fff;
     border-radius: 2px 2px 0 0;
     color: #999;
     cursor: pointer;
@@ -627,7 +627,7 @@ body:not(.lg-from-hash)
     content: "\e20d";
 }
 .lg-outer #lg-dropdown-overlay {
-    background-color: rgba(0, 0, 0, 0.25);
+    background-color: rgba(255, 255, 255);
     bottom: 0;
     cursor: default;
     left: 0;

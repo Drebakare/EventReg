@@ -73,11 +73,8 @@
 
             <!-- Navbar Brand-->
             <a class="navbar-brand" href="index.html">
-
-                    <img src="_landing/assets/images/logo.png" alt="xownsolutions">
-
+                <img src="{{asset('_landing/assets/images/logo.png')}}" alt="xownsolutions">
             </a>
-
             <!-- Nav holder -->
             <div class="ml-auto"></div>
 
