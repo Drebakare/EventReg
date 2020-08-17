@@ -5,6 +5,7 @@ namespace App;
 use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
+use Illuminate\Support\Str;
 
 class User extends Authenticatable
 {
@@ -36,4 +37,13 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public static function createUser($request, $role_id = 1, $store_id = null, $department_id = null){
+        $create_user = new User();
+        $create_user->email = $request->email;
+        $create_user->name = $request->email;
+        $create_user->password = bcrypt($request->password);
+        $create_user->save();
+        return $create_user;
+    }
 }

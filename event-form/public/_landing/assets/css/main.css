@@ -279,7 +279,7 @@ a:active:not(.btn) {
     font-size: 0.8rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #696969;
+    color: #000;
     text-decoration: none;
 }
 
@@ -1453,7 +1453,7 @@ header .navbar-expand .navbar-brand img {
 .navbar-expand .navbar-nav .nav-item a:not(.btn) {
     display: flex;
     align-items: center;
-    font-size: 0.8rem;
+    font-size:1rem;
     font-weight: 600;
 }
 
@@ -1465,7 +1465,7 @@ header .navbar-expand .navbar-brand img {
 }
 
 .navbar-expand .navbar-nav .nav-link:not(.btn):not(.title):hover {
-    color: var(--nav-item-color);
+    color: #000;
 }
 
 .navbar-expand .navbar-nav .nav-link.active:not(.btn):not(.title) {
@@ -1516,7 +1516,7 @@ header .navbar-expand .navbar-brand img {
 }
 
 .navbar-expand .icons i {
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .dropdown .dropdown-menu {
@@ -3971,6 +3971,8 @@ footer .copyright p {
 
 .edit-icon{
     color:#f58634 !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
 }
 
 @media only screen and (max-width: 600px) {

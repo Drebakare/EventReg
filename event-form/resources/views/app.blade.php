@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="{{asset('_landing/assets/css/default.css')}}">
     <style>
         :root {
-            --header-bg-color: #111111;
+            --header-bg-color: #fff;
             --nav-item-color: #f5f5f5;
             --hero-bg-color: #fff;
             --section-1-bg-color: #f5f5f5;

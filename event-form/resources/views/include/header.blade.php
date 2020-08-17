@@ -72,7 +72,7 @@
         <div class="container header">
 
             <!-- Navbar Brand-->
-            <a class="navbar-brand" href="index.html">
+            <a class="navbar-brand" href="https://www.xownsolutions.com">
                 <img src="{{asset('_landing/assets/images/logo.png')}}" alt="xownsolutions">
             </a>
             <!-- Nav holder -->
