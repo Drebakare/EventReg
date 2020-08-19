@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Digital Culture Registration Confirmation</title>
+    <title>Digital Culture - An Enabler for Transformational Sales Experience</title>
 
     <style>
         .digital-culture {
@@ -15,15 +15,20 @@
 
 <body>
 <div class="">
-    <p>Hi, {{$attendee->surname}}</p>
+    <p style="font-weight: bolder">Hi, {{$attendee->first_name. ' '. $attendee->surname}}</p>
+    <p style="font-weight: bolder">Congratulations! You have been successfully registered for the upcoming webinar</p>
+    <p style="font-weight: bolder">Title:</p>
+    <p style="font-weight: bolder; color: #f58634; font-size: larger">Digital Culture - An Enabler for Transformational Sales Experience</p>
+    <p style="padding-left: 25px; color: #f58634;">Details are shown below:</p>
+    <img src="{{asset('image_1.jpg')}}">
+    <p style="padding-left: 25px; color: #f58634;">Highlights of the event include:</p>
+    <img src="{{asset('image1.jpg')}}">
+    <p style="font-weight: bolder">Join the webinar using this link -  <a href="https://bit.ly/3fJbuCX">https://bit.ly/3fJbuCX</a></p>
+    <p style="font-weight: bolder">Looking forward to welcoming you.</p>
+    <p style="font-weight: bolder">Thanks & Best Regards</p>
     <br />
-    <p>Congratulations! You have been successfully registered for the upcoming webinar dated for Saturday, 27th June, 2020 at 5:00 pm WAT.</p>
-    <p>You would be contacted shortly via the registered email with the link to join in on the webinar.</p>
-    <p>We look forward to welcoming you.</p>
     <br />
-    <br />
-    <p>Thanks and regards</p>
-    <p>Xown Solutions Ltd.</p>
+    <p style="font-weight: bolder">Xown Solutions Ltd.</p>
 </div>
 
 
