@@ -1,4 +1,4 @@
-pu@extends('app')
+@extends('app')
 @section('content')
     {{--<section id="slider" class="hero p-0 odd featured">
         <div class="swiper-container no-slider slider-h-75">

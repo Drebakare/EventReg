@@ -14,26 +14,26 @@
                         Suggestion:Replace the text above with a description of your website.
                      -->
                 </div>
-                <div class="col-sm-12 col-xsm-12 col-md-8 col-lg-5 l pr-0   text-xsm-center  flex-wrap" style="display: flex">
+                <div class="col-sm-12 col-xsm-12 col-md-8 col-lg-5 l pr-0  grey text-xsm-center  flex-wrap" style="display: flex">
                     <div class="col-12">
                         <h6 >Products</h6>
                     </div>
                     <div class=" col-xsm-12 ">
                         <h6><a class="link" href="https://xownsolutions.com/x-care">
-                            <span class=" edit-icon icon-arrow-right" style="margin-right: 5px;"></span> xCare for HMOs
+                            <span class=" edit-icon " style="margin-right: 5px;">&#187;</span> xCare for HMOs
                         </a></h6>
 
                         <h6><a class="link" href="https://xownsolutions.com/xcoop">
-                            <span class=" edit-icon icon-arrow-right" style="margin-right: 5px;"></span> xCOOP for Cooperatives
+                            <span class=" edit-icon " style="margin-right: 5px;">&#187;</span> xCOOP for Cooperatives
                         </a></h6>
                         <h6><a class="link" href="https://xownsolutions.com/medik-360">
-                            <span class=" edit-icon icon-arrow-right" style="margin-right: 5px;"></span>  Medik360 for Hospitals
+                            <span class=" edit-icon " style="margin-right: 5px;">&#187;</span>  Medik360 for Hospitals
                         </a></h6>
                         <h6><a class="link" href="https://xownsolutions.com/xeduware">
-                            <span class=" edit-icon icon-arrow-right" style="margin-right: 5px;"></span>  xEduware for Schools
+                            <span class=" edit-icon " style="margin-right: 5px;">&#187;</span>  xEduware for Schools
                         </a></h6>
                         <h6><a class="link" href="https://xownsolutions.com/xpos">
-                            <span class=" edit-icon icon-arrow-right" style="margin-right: 5px;"></span>  xPOS for Supermarkets
+                            <span class=" edit-icon " style="margin-right: 5px;">&#187;</span>  xPOS for Supermarkets
                         </a></h6>
 
 
@@ -41,56 +41,56 @@
                     </div>
                     <div class="ml-3 col-xsm-12">
                         <h6><a class="link" href="https://xownsolutions.com/xprocure">
-                            <span class=" edit-icon icon-arrow-right" style="margin-right: 5px;"></span>xProcure
+                            <span class=" edit-icon " style="margin-right: 5px;">&#187;</span>xProcure
                         </a></h6>
                         <h6><a class="link" href="https://xownsolutions.com/kapersky-endpoint-security">
-                            <span class=" edit-icon icon-arrow-right" style="margin-right: 5px;"></span> Kaspersky Endpoint Security
+                            <span class=" edit-icon " style="margin-right: 5px;">&#187;</span> Kaspersky Endpoint Security
                         </a></h6>
                         <h6><a class="link" href="https://xownsolutions.com/bullgaurd-security">
-                            <span class=" edit-icon icon-arrow-right" style="margin-right: 5px;"></span> Bullguard Antivirus
+                            <span class=" edit-icon " style="margin-right: 5px;">&#187;</span> Bullguard Antivirus
                         </a></h6>
                         <h6><a class="link" href="https://xownsolutions.com/bullgaurd-security">
-                            <span class=" edit-icon icon-arrow-right" style="margin-right: 5px;"></span> Bullguard Internet Security
+                            <span class=" edit-icon " style="margin-right: 5px;">&#187;</span> Bullguard Internet Security
                         </a></h6>
                         <h6><a class="link" href="https://xownsolutions.com/microsoft365">
-                            <span class=" edit-icon icon-arrow-right" style="margin-right: 5px;"></span> Microsoft Office 365
+                            <span class=" edit-icon " style="margin-right: 5px;">&#187;</span> Microsoft Office 365
                         </a></h6>
 
                     </div>
                 </div>
-                <div class="col-12  col-lg-4 mr-0 flex-wrap" style="display: flex">
+                <div class="col-12  col-lg-4 mr-0 flex-wrap grey" style="display: flex">
 
-                <div class=" col-xsm-12">
+                    <div class=" col-xsm-12">
 
-                    <h6 >Our Services</h6>
+                        <h6 >Our Services</h6>
 
-                    <h6><a class="link" href="https://xownsolutions.com/web-services">
-                    <span class=" edit-icon icon-arrow-right" style="margin-right: 5px;"></span> Web Application Dev
-                    </a></h6>
-                    <h6><a class="link" href="https://xownsolutions.com/portal-deployment">
-                    <span class=" edit-icon icon-arrow-right" style="margin-right: 5px;"></span> Portal Deployment
-                    </a></h6>
-                    <h6><a class="link" href="https://xownsolutions.com/recovery">
-                    <span class=" edit-icon icon-arrow-right" style="margin-right: 5px;"></span> Disaster Recovery Solutions
-                    </a></h6>
-                    <h6><a class="link" href="https://xownsolutions.com/it-support">
-                    <span class=" edit-icon icon-arrow-right" style="margin-right: 5px;"></span> IT And Internet Security
-                    </a></h6>
-                </div>
-                <div class="col-xsm-12 pl-3 ml-3">
+                        <h6><a class="link" href="https://xownsolutions.com/web-services">
+                        <span class=" edit-icon " style="margin-right: 5px;">&#187;</span> Web Application Dev
+                        </a></h6>
+                        <h6><a class="link" href="https://xownsolutions.com/portal-deployment">
+                        <span class=" edit-icon " style="margin-right: 5px;">&#187;</span> Portal Deployment
+                        </a></h6>
+                        <h6><a class="link" href="https://xownsolutions.com/recovery">
+                        <span class=" edit-icon " style="margin-right: 5px;">&#187;</span> Disaster Recovery Solutions
+                        </a></h6>
+                        <h6><a class="link" href="https://xownsolutions.com/it-support">
+                        <span class=" edit-icon " style="margin-right: 5px;">&#187;</span> IT And Internet Security
+                        </a></h6>
+                    </div>
+                    <div class="col-xsm-12 pl-3 ml-3">
 
-                    <h6 >Quick Links</h6>
+                        <h6 >Quick Links</h6>
 
-                    <h6><a class="link" href="https://xownsolutions.com/about">
-                        <span class=" edit-icon icon-arrow-right" style="margin-right: 5px;"></span> About
-                    </a></h6>
-                    <h6><a class="link" href="https://xownsolutions.com/career">
-                        <span class=" edit-icon icon-arrow-right" style="margin-right: 5px;"></span> Career
-                    </a></h6>
-                    <h6><a class="link" href="https://xownsolutions.com/contact">
-                        <span class=" edit-icon icon-arrow-right" style="margin-right: 5px;"></span> Contact Us
-                    </a></h6>
-                </div>
+                        <h6><a class="link" href="https://xownsolutions.com/about">
+                            <span class=" edit-icon " style="margin-right: 5px;">&#187;</span> About
+                        </a></h6>
+                        <h6><a class="link" href="https://xownsolutions.com/career">
+                            <span class=" edit-icon " style="margin-right: 5px;">&#187;</span> Career
+                        </a></h6>
+                        <h6><a class="link" href="https://xownsolutions.com/contact">
+                            <span class=" edit-icon " style="margin-right: 5px;">&#187;</span> Contact Us
+                        </a></h6>
+                    </div>
                 </div>
 
 
@@ -100,17 +100,23 @@
                 <div class="col-sm-12 col-xsm-12 col-md-6 p-3 text-center text-lg-left">
                     <p>© <?php echo date("Y"); ?>Xown Solutions Ltd. All Rights Reserved <a href="https://www.xownsolutions.com" style="color: #f58634!important;">Xown Solutions</a>.</p>
                 </div>
-                <div class="col-sm-12 col-xsm-12 col-md-6 p-3 text-center text-lg-right">
+                <div class="col-sm-12 col-xsm-12 col-md-6 p-3 text-center text-lg-right ">
+
                         <a href="https://www.facebook.com/XownSolutionsLimited/" target="_blank" aria-label="Facebook" class="pr-3">
-                            <i class="edit-icon icon-social-facebook"></i> </a>
+                            <span class="tooltiptext">Facebook</span>
+                                 <i class="edit-icon icon-social-facebook"></i>
+                    </a>
 
                         <a href="https://www.instagram.com/xown_solution/" target="_blank" aria-label="Instagram" class="pr-3">
+                            <span class="tooltiptext">Instagram</span>
                             <i class="edit-icon  icon-social-instagram "></i> </a>
 
                         <a href="https://www.linkedin.com/company/3015694/" target="_blank" aria-label="Linkedin" class="pr-3">
+                            <span class="tooltiptext">Linkedin</span>
                             <i class="edit-icon icon-social-linkedin "></i> </a>
 
                         <a href="https://www.youtube.com/channel/UCaMWBcdS1TVZPLkv8Ebt1JA" target="_blank" aria-label="Youtube" class="pr-3">
+                            <span class="tooltiptext">Youtube </span>
                             <i class="edit-icon icon-social-youtube "></i> </a>
                         </div>
                 </div>

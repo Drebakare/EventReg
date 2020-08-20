@@ -1453,7 +1453,7 @@ header .navbar-expand .navbar-brand img {
 .navbar-expand .navbar-nav .nav-item a:not(.btn) {
     display: flex;
     align-items: center;
-    font-size:1rem;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -1461,7 +1461,6 @@ header .navbar-expand .navbar-brand img {
     padding-right: 1rem;
     padding-left: 1rem;
     color: #f58634;
-
 }
 
 .navbar-expand .navbar-nav .nav-link:not(.btn):not(.title):hover {
@@ -1625,7 +1624,9 @@ header .navbar-expand .navbar-brand img {
 }
 
 .menu .nav-link:not(.btn):hover,
-.odd .menu .nav-link:not(.btn):hover {
+.odd .menu .nav-link:not(.btn):hover .tooltiptext {
+    visibility: visible;
+
     color: #f58634;
 }
 
@@ -1660,7 +1661,8 @@ header .navbar-expand .navbar-brand img {
 }
 
 .menu .dropdown .dropdown-menu .nav-link:hover,
-.odd .menu .dropdown .dropdown-menu .nav-link:hover {
+.odd .menu .dropdown .dropdown-menu .nav-link:hover .tooltiptext {
+    visibility: visible;
     color: #f58634;
 }
 
@@ -3924,7 +3926,16 @@ footer .copyright p {
 
     /* #endregion Footer */
 }
-
+footer p {
+    color: #000;
+}
+.grey h6:hover {
+    color: #656565;
+    border-bottom: 1px dashed #656565;
+}
+.grey .edit-icon:hover {
+    color: #656565;
+}
 @media (max-width: 576px) {
     /* #region Feature */
 
@@ -3969,18 +3980,66 @@ footer .copyright p {
 
 /* #endregion All Media Queries */
 
-.edit-icon{
-    color:#f58634 !important;
+.edit-icon {
+    color: #f58634;
     font-size: 1rem !important;
     font-weight: 600 !important;
 }
-
+.pr-3 .edit-icon {
+    color: #fff;
+}
+.pr-3 {
+    background: #f58634;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: 16px;
+    margin: 6px;
+    position: relative;
+    display: inline-block;
+}
+.tooltiptext {
+    visibility: hidden;
+    width: 70px;
+    background-color: black;
+    color: #656565;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    bottom: 110%;
+    left: 50%;
+    margin-top: 3px;
+    margin-left: -35px;
+}
+.tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #f58634 transparent transparent transparent;
+}
+.pr-3:hover {
+    background: transparent;
+    border: 1px solid #656565;
+}
+.pr-3:hover .edit-icon {
+    color: #f58634;
+}
+.pr-3:hover .tooltiptext,
+.nav-item:hover .tooltiptext {
+    visibility: visible;
+}
 @media only screen and (max-width: 600px) {
-
-    .slider-h-100{
+    .slider-h-100 {
         max-height: 45vh !important;
     }
-    .edit-title{
-        font-size: 2.0rem!important;
+    .edit-title {
+        font-size: 2rem !important;
     }
 }
