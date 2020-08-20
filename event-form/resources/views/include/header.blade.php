@@ -69,7 +69,7 @@
 
     <!-- Navbar -->
     <nav data-aos="zoom-out" data-aos-delay="800" class="navbar navbar-expand">
-        <div class="container header">
+        <div class="container header" style="padding-top:20px;">
 
             <!-- Navbar Brand-->
             <a class="navbar-brand" href="https://www.xownsolutions.com">
@@ -79,8 +79,9 @@
             <div class="ml-auto"></div>
 
             <!-- Navbar Items -->
-            <ul class="navbar-nav items">
+            <ul class="navbar-nav items" >
                 <li class="nav-item dropdown">
+                    <span class="tooltiptext">Home</span>
                     <a href="{{route('homepage')}}" class="nav-link">Home {{--<i class="icon-arrow-down"></i>--}}</a>
                     <ul class="dropdown-menu d-none">
                         <li class="nav-item dropdown">
@@ -174,18 +175,25 @@
                     </a>
                 </li>
                 <li class="nav-item social">
-                    <a href="https://mobile.twitter.com/xownsolutions" class="nav-link"><i class="icon-social-twitter"></i></a>
+
+                 <a href="https://mobile.twitter.com/xownsolutions" class="nav-link">
+                    <span class="tooltiptext">Twitter</span>
+                    <i class="icon-social-twitter"></i></a>
                 </li>
                 <li class="nav-item social">
+                    <span class="tooltiptext">LinkedIn</span>
                     <a href="https://www.linkedin.com/company/xown-solutions/" class="nav-link"><i class="icon-social-linkedin"></i></a>
                 </li>
                 <li class="nav-item social">
+                    <span class="tooltiptext">Instagram</span>
                     <a href="http://instagram.com/xown_solution" class="nav-link"><i class="icon-social-instagram"></i></a>
                 </li>
                 <li class="nav-item social">
+                    <span class="tooltiptext">Facebook</span>
                     <a href="http://www.facebook.com/XownSolutionsLimited/" class="nav-link"><i class="icon-social-facebook"></i></a>
                 </li>
                 <li class="nav-item social">
+                    <span class="tooltiptext">Youtube</span>
                     <a href="https://m.youtube.com/channel/UCZK74Vry--kWPcEnWRwVjww" class="nav-link"><i class="icon-social-youtube"></i></a>
                 </li>
             </ul>
